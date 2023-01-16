@@ -15,7 +15,7 @@ const sum = function(array) {
 };
 
 const multiply = function(array) {
-  let mul = 1;
+  let mul = 1gi;
   for (const items of array) {
     mul *= items;
   }
